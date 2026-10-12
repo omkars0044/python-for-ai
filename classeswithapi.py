@@ -1,6 +1,5 @@
 import requests
-import langchain_openai
-from langchain_openai import OpenAI_chat
+from langchain_openai import ChatOpenAI
 class APIomkar:
     def __init__(self,api_key,model="gpt-3.5-turbo",token_limit=4096):
         self.api_key = api_key

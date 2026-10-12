@@ -9,11 +9,13 @@ class Dog(animal):
     def bark(self):
         print(f"{self.name} is barking.")
 
-my_dog = Dog("Buddy")
-my_dog.eat()  # Inherited method from animal class
+my_dog = Dog("Buddy") 
 
 my_puppy = Dog("Max")
-my_puppy.bark()  # Method from Dog class
+
+my_dog.eat()
+my_puppy.bark()
 
 print(my_dog.name)
-print(my_puppy.bark)
+print(my_puppy.name)
+

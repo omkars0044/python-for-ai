@@ -1,18 +1,19 @@
-class dog:
-    def __init__(self, name, breeed):
-        self.name = name
-        self.breeed = breeed
 
-class cat:
+class Dog:
     def __init__(self, name, breed):
         self.name = name
         self.breed = breed
 
-modi = dog("Modi", "Coward")
-gyanesh = cat("Gyanesh", "Zatu")
+class Cat:
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
 
-modi.name
-modi.breeed
+modi = Dog("Modi", "Coward")
+gyanesh = Cat("Gyanesh", "Zatu")
 
-gyanesh.name
-gyanesh.breed
+print(modi.name)
+print(modi.breed)
+
+print(gyanesh.name)
+print(gyanesh.breed)
